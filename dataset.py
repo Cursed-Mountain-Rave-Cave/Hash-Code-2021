@@ -59,4 +59,4 @@ class Dataset:
                 car_route = f.readline().split()
                 streets_count = car_route[0]
                 streets = car_route[1:]
-                self.car_routes.append(Route(streets_count, streets))
+                self.car_routes.append(Route(int(streets_count), streets))
