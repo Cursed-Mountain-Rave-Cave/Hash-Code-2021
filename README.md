@@ -1,1 +1,1 @@
-*Hash Code 2021 repository*
+# Hash Code 2021 repository
