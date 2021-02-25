@@ -75,7 +75,7 @@ def dataset_from_file(filename):
             car_route = f.readline().split()
             street_count = car_route[0]
             streets = car_route[1:]
-            dataset.car_routes.append(Route(streets_count, car_route))
+            dataset.car_routes.append(Route(street_count, streets))
         
         return dataset
 
